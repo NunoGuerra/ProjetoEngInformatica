@@ -1,8 +1,11 @@
 # course_overviewuas #
 
-TODO Describe the plugin shortly here.
+Bloco de navegação expedita na plataforma Moodle
 
-TODO Provide more detailed description here.
+O bloco “Course overview on campus”, tem a função de mostrar a informação e 
+ligações sobre: mensagens publicadas após último login, lista de UCs inscritas, atividades com 
+prazo a aproximar-se, permitir ao utilizador definir prioridades para a informação a apresentar 
+(ex. mostrar primeiro UCs que estejam em curso).
 
 ## Installing via uploaded ZIP file ##
 
