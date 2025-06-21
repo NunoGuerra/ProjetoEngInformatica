@@ -1,0 +1,315 @@
+/* b2c final page css */
+main{ padding: 24px;}
+.trainer_dashboard_detail{ flex-direction: row;}
+.trainer_dashboard_page{ flex-direction: row;}
+
+.block_course_overviewua .card-block{
+    max-height: unset !important;
+}
+.block_course_overviewua .card-text content {
+    padding-bottom: 24px;
+}
+/* program-section */
+.ongoing_discussions_section{ 
+     background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.ongoing_discussions_section p{ 
+    font-weight: 500;
+    position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    line-clamp: 1;
+}
+.ongoing_discussions_ul {}
+.ongoing_discussions_li{
+
+}
+.ongoing_discussions_section .ongoing_discussions_li:last-child{
+    margin-bottom: 0  !important;
+}
+.replies-img-ul{ 
+    position: relative;
+    width: 100px;
+    height: 30px;
+}
+
+.replies-img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    border-radius: 50%;
+}
+.replies-img:nth-child(1){
+    left: 0;
+    z-index: 1;
+}
+.replies-img:nth-child(2){
+    left: 15px;
+    z-index: 2;
+}
+.replies-img:nth-child(3){
+    left: 30px;
+    z-index: 3;
+}
+.replies-img-ul li:nth-child(4){
+    right: 13px;
+    position: absolute;
+    top: 3px;
+    display: inline-block;
+    color: #686868;
+    font-size: 15px;
+    line-height: 24px;
+    vertical-align: middle;
+    font-weight: 500;
+}
+.replies-img img{
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.view-all-a{
+    margin-top: 24px;
+}
+@media screen and (max-width: 767px ) {
+    .trainer_dashboard_detail , .trainer_dashboard_page{ flex-direction: column;}
+    .ongoing_discussions_section{  padding: 20px 14px; }
+   
+
+}
+@media screen and (max-width: 550px ) {
+    .learners-section .custom-select-box{ max-width: 166px; }
+
+}
+@media screen and (max-width: 768px ) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 900px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* b2c final page css */
+main{ padding: 24px;}
+.trainer_dashboard_detail{ flex-direction: row;}
+.trainer_dashboard_page{ flex-direction: row;}
+
+
+/* program-section */
+.ongoing_discussions_section{ 
+     background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.ongoing_discussions_section p{ 
+    font-weight: 500;
+    position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    line-clamp: 1;
+}
+.newest-select{ padding-left: 16px !important;}
+.ongoing-discus-head{
+    background-color:  #F9F9F9;
+    padding: 8px;
+    border-radius: 4px 4px 0 0;
+}
+.discussion {
+    width: 45%;
+    color: #868686;
+    text-align: left;
+}
+.started-replies{
+    width: 40%;
+}
+.started{
+    width: 70%;
+    color: #868686;
+    text-align: center;
+    display: inline-block;
+}
+.replies{
+    width: 28%;
+    color: #868686;
+    text-align: center;
+    display: inline-block;
+}
+.contribution{
+    width: 15%;
+    color: #868686;
+    text-align: right;
+}
+.ongoing-discus-list{
+    padding: 16px 8px;
+}
+.trainer-img , .trainer-img img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+.replies-img-ul{ 
+    position: relative;
+    height: 30px;
+}
+.replies-img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    border-radius: 50%;
+}
+.replies-img:nth-child(1){
+    right: 60px;
+    z-index: 1;
+}
+.replies-img:nth-child(2){
+    right: 45px;
+    z-index: 2;
+}
+.replies-img:nth-child(3){
+    right:  30px;
+    z-index: 3;
+}
+.replies-img-ul li:nth-child(4){
+    right: 2px;
+    position: absolute;
+    top: 3px;
+    display: inline-block;
+    color: #686868;
+    font-size: 15px;
+    line-height: 24px;
+    vertical-align: middle;
+    font-weight: 500;
+}
+.replies-img img{
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 767px ) {
+    .trainer_dashboard_detail , .trainer_dashboard_page{ flex-direction: column;}
+    .ongoing_discussions_section{  padding: 20px 14px; }
+   main{ padding: 8px;}
+   .ongoing-discus-list{
+    padding: 16px 0px;
+    flex-direction: column;
+    display: block !important;
+    overflow: auto;
+    clear: both;
+}
+.ongoing-discussions-heading{
+    flex-direction: column;
+}
+.dropdown-program-newest{
+    flex-direction: column;
+    margin-top: 16px;
+}
+.newest-select{
+    padding-left: 0 !important;
+    margin-top: 16px;
+}
+.discussion {
+    width: 100%;
+    margin-bottom: 12px;
+}
+.started-replies{
+    flex-direction: column;
+    width: 48%;
+    display: inline-block !important;
+    float: left;
+}
+.started{
+    width: 100%;
+    text-align: left;
+    display: inline-block !important;
+    margin-bottom: 12px;
+}
+.started > .d-flex.justify-content-center.align-items-center{
+    justify-content: start !important;
+}
+.replies{
+    width: 100%;
+    text-align: left;
+    display: inline-block !important;
+    order: 5;
+}
+.contribution{
+    width: 48%;
+    text-align: left;
+    display: inline-block !important;
+    float: right;
+}
+
+.replies-img-ul{
+    justify-content: flex-start !important;
+}
+.replies-img:nth-child(1){
+    left:  0px;
+}
+.replies-img:nth-child(2){
+    left: 18px;
+}
+.replies-img:nth-child(3){
+    left:  38px;
+}
+.replies-img-ul li:nth-child(4){
+    left: 70px;
+}
+
+}
+@media screen and (max-width: 550px ) {
+    .learners-section .custom-select-box{ max-width: 166px; }
+
+}
+@media screen and (max-width: 768px ) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 900px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
